@@ -1,16 +1,20 @@
+#部署教程
+
 采用本地源码运行全模块的好处是，你可以体验最全的小智大模型各类工具。
 声明，本文参考了：
-小智源码文档
-本地源码运行全模块步骤
-小智硬件源码
+
+-小智源码文档：https://gitcode.com/gh_mirrors/xia/xiaozhi-esp32-server?utm_source=csdn_github_accelerator&isLogin=1
+-本地源码运行全模块步骤： https://gitcode.com/gh_mirrors/xia/xiaozhi-esp32-server/blob/main/docs/Deployment_all.md?utm_source=csdn_github_accelerator&isLogin=1
+-小智硬件源码：https://gitcode.com/GitHub_Trending/xia/xiaozhi-esp32?utm_source=csdn_github_accelerator&isLogin=1
 
 📦 环境总览
-组件	版本	用途
-Docker	最新版	容器化部署数据库
-MySQL	8.0+	数据存储
-Redis	7.0+	缓存服务
-JDK	21	后端运行环境
-Python	3.10	AI模型推理
+| 组件    | 版本      | 用途             |
+|---------|-----------|------------------|
+| Docker  | 最新版    | 容器化部署数据库 |
+| MySQL   | 8.0+      | 数据存储         |
+| Redis   | 7.0+      | 缓存服务         |
+| JDK     | 21        | 后端运行环境     |
+| Python  | 3.10      | AI模型推理       |
 🔧 一、安装MySQL数据库
 1. 先安装Docker
 通过docker安转MySQL。这里因为我是没有MySQL，所以我采取了使用Docker安装。我用的Docker是在官方下载的，我并没有按照他上面给的方式去安装，感觉看的不清晰。
